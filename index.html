@@ -1,259 +1,395 @@
-<doctype html>
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+  <title>Jonatan R Dalbosco</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <link rel="icon" type="image/png" href="images/favicon.svg" />
+  <link rel="stylesheet" href="fonts/icomoon/style.css"> 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/font-awesome.min.css">
+  <script src="https://use.fontawesome.com/eda7fbd9a2.js"></script>
+</head>
 
- <html class="no-js" lang=""> 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Jonatan | Desenvolvedor WEB</title>
-
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/fontAwesome.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body>
-
-        <div class="overlay"></div>
-        <section class="top-part">
-          <video controls autoplay loop>
-            <source src="videos/video.mp4" type="video/mp4">
-            <source src="videos/video.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-          </video>
+  <div class="scrollTop" onclick="scrollToTop()"></div>
+<div id="links-dados" class="hidden-md-down row">
+  <div class="col-lg-6 col-6 no-pad left"> 
+    <a href="https://api.whatsapp.com/send?phone=5551996146297" target="_blank" class="btn-whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="200">
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="header-bar d-flex d-lg-block align-items-center site-navbar-target" data-aos="fade-right">
+      <div class="site-logo">
+        <img src="./images/eu.png" alt="EU">
+      </div>
+      <div class="d-inline-block d-lg-none ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="menu-responsive">MENU</span><span class="icon-menu h3"></span></a></div>
+      <div class="main-menu">
+        <ul class="js-menu js-clone-nav">
+          <li>
+            <a href="./" class="nav-link">Inicio</a>
+          </li>
+          <li>
+            <a href="#servicos" class="nav-link">Serviços</a>
+          </li>
+          <li>
+            <a href="#duvidas" class="nav-link">Dúvidas?</a>
+          </li>
+          <li>
+            <a href="#contato" class="nav-link">Contato</a>
+          </li> 
+        </ul>
+        <ul class="social js-clone-nav">
+          <li>
+            <a href="https://www.facebook.com/jonatanrodriguesdalbosco" target="_blank"><span class="icon-facebook"></span></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jonatan-rodrigues-dalbosco-150a09183/" target="_blank"><span class="icon-linkedin"></span></a>
+          </li>
+          <li>
+            <a href="https://github.com/jonatandalbosco" target="_blank"><span class="icon-github"></span></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/jonatandalbosco_/" target="_blank"><span class="icon-instagram"></span></a>
+          </li>
+          <li>
+            <a href="mailto:gaiterinho2012@gmail.com" target="_blank"><span class="icon-envelope"></span></a>
+          </li>
+        </ul>
+      </div>
+    </header> 
+    <main class="main-content">
+      <section class="site-section-hero bg-image"  data-stellar-background-ratio="0.5" id="section-home">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-7 col-8 text-start mleft-20">
+            <h1 class="text-white heading text-uppercase  anim-typewriter" data-aos="fade-left">Olá! Meu nome é Jonatan Dalbosco.</h1>
+            <p class="lead text-white mb-5 animated bounceInDown" data-aos="fade-left" data-aos-delay="100">Eu sou um Desenvolvedor Web</p>
+            <p data-aos="fade-left" data-aos-delay="100"><a href="#section-contact" class="btn btn-primary btn-md smoothscroll animated bounceInDown">Veja mais</a></p>
+          </div>
+          <div class="col-lg-5 col-4 relative-mobile-desk">
+            <div class="col-md-12  col-12  botaohome2 animated-four bounceInRight no-pad">
+              <a class="botoeshome" href="#"><i class="fa fa-code iconesbotoeshome"></i><span class="m-position"><span class="timer count-title count-number" data-to="99" data-speed="4000"></span>%<span class="html-css">HTML</span></span></a>
+            </div>
+            <div class="col-md-12  col-12 botaohome3 animated-three bounceInRight no-pad">
+              <a class="botoeshome" href="#"><i class="fa fa-code iconesbotoeshome"></i><span class="m-position"><span class="timer count-title count-number" data-to="99" data-speed="4000"></span>%<span class="html-css">CSS</span></span></a>
+            </div>
+            <div class="col-md-12  col-12 botaohome1 animated-two bounceInRight no-pad">
+              <a class="botoeshome" href="#"><i class="fa fa-code iconesbotoeshome"></i><span class="m-position"><span class="timer count-title count-number" data-to="99" data-speed="4000"></span>%<span class="html-css">JS</span></span></a>
+            </div>
+            <div class="col-md-12  col-12 botaohome0 animated-one bounceInRight no-pad">
+              <a class="botoeshome" href="#"><i class="fa fa-code iconesbotoeshome"></i><span class="m-position"><span class="timer count-title count-number" data-to="99" data-speed="4000"></span>%<span class="html-css">BS</span></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="container-fluid no-pad">
+        <section class="site-section second-section darken-bg js-scroll">
+          <div class="container">
+            <div class="col-lg-12 col-12 text-center">
+              <h2 class="heading text-uppercase text-white">Serviços</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="box-services">
+                  <h2>Criação de Sites</h2>
+                  <div class="box-info">
+                    <img src="./images/customer-support.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="box-services">
+                  <h2>Suporte 24 Horas</h2>
+                  <div class="box-info">
+                    <img src="./images/24-hours.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="box-services">
+                  <h2>Vídeo Maker</h2>
+                  <div class="box-info">
+                    <img src="./images/video.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="box-services">
+                  <h2>Criação de Posts</h2>
+                  <div class="box-info">
+                    <img src="./images/company.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 padding-top-now">
+                <div class="box-services">
+                  <h2>Youtube Producer</h2>
+                  <div class="box-info">
+                    <img src="./images/youtube.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 padding-top-now">
+                <div class="box-services">
+                  <h2>Formatação de Computadores</h2>
+                  <div class="box-info">
+                    <img src="./images/computer.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-        
-        <section class="cd-hero">
-
-          <div class="cd-slider-nav">
-            <nav>
-              <span class="cd-marker item-1"></span>
-              <ul>
-                <li class="selected"><a href="#0"><div class="image-icon"><img src="img/home-icon.png" class="imageicon"></div><h6>Bem Vindo</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/about-icon.png" class="imageicon"></div><h6>Sobre Mim</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/featured-icon.png" class="imageicon"></div><h6>Destaque</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/projects-icon.png" class="imageicon"></div><h6>Projetos</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/contact-icon.png" class="imageicon"></div><h6>Contato</h6></a></li>
-              </ul>
-            </nav> 
-          </div> <!-- .cd-slider-nav -->
-
-          <ul class="cd-hero-slider">
-
-            <li class="selected">
-              <div class="heading">
-                <h1>Desenvolvimento WEB</h1>
-                <span>Seja bem vindo ao meu Portfólio</span>
-              </div>
-              <div class="cd-full-width first-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content first-content">
-                        <h4>Vamos falar um pouco sobre desenvolvimento WEB</h4>
-                        <p>Desenvolver ou programar para web é um termo criado para profissionais que trabalham com a criação de páginas ou sites para internet ou intranet. As páginas da internet são escritas em linguagens como HTML, JavaScript e CSS, e podem conter textos, imagens ou vídeos. Além das páginas simples, o programador poderá desenvolver páginas dinâmicas e interativas. A criação dessas últimas são mais trabalhosas e requer um certo nivel de experiência na área. Mas são páginas que contém recursos avançados como serviços de compra online, redes sociais, visualizações dinâmicas, etc.<br><a href="http://www.programador.com.br/desenvolvimento-web.html" target="_blank">Programador</a></p>
-                        <div class="primary-button">
-                          <a href="#">Saiba Mais</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
+        <section class="third-section" data-aos="fade-left" data-aos-duration="2500" id="duvidas">
+          <div class="container">
+            <div class="col-lg-12">
+              <h1 class="heading text-uppercase text-white text-center">Dúvidas?</h1>
+            </div>
+            <div class="col-lg-12 text-center text-white">
+              <h3 class="text-white"><span><i class="fa fa-arrow-down"></i></span>Saiba tudo sobre o website:<span><i class="fa fa-arrow-down"></i></span></h3>
+              <p class="text-exp">Atualmente o desenvolvimento deste website, tem como objetivo demonstrar um pouco de minhas habilidades e oferecer minha prestação de serviços para você!</p>
+            </div>
+            <div class="main-slider">
+              <div class="card">
+                <img class="card-img-top zoom" src="images/exp-img.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">Developed - HTML</p>
+                  <button class="btn-inside-card">Saiba mais</button>
                 </div>
               </div>
-            </li>
-
-            <li>
-              <div class="heading">
-                <h1>Sobre Mim</h1>
-                <span>Clique e obtenha mais informações sobre mim</span> 
-              </div>
-              <div class="cd-half-width second-slide">   
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content second-content">
-                        <div class="row">
-                          <div class="col-md-7 left-image">
-                            <img src="img/left-about-image.jpg">
-                          </div>
-                          <div class="col-md-5">
-                            <div class="right-about-text">
-                              <h4>Quem sou eu?</h4>
-                              <p>Eu sou uma pessoa muito dedicada, inteligente, que aprende com facilidade e desenvolve websites na Agência Bridge em Campo bom - RS. Gosto de ter e manter um bom relacionamento com áqueles que trabalho, sempre respeitando as idéias e convicçcões de cada um. </p>
-                              <div class="primary-button">
-                                <a href="#">Descubra mais</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-7">
-                            <div class="left-about-text">
-                              <h4>O que eu faço?</h4>
-                              <p>Sou um profissional de programação web e responsável pelo desenvolvimento de sites, portais, fóruns e aplicações voltadas para o ambiente da internet. Normalmente estes serviços podem ser acessados por meio de um navegador e ficam hospedados em servidores web.</p>
-                              <div class="primary-button">
-                                <a href="#">Descubra mais</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-md-5 right-image">
-                            <img src="img/right-about-image.jpg">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
+              <div class="card">
+                <img class="card-img-top zoom" src="images/exp-img3.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">Developed - Bootstrap</p>
+                  <button class="btn-inside-card">Saiba mais</button>
                 </div>
               </div>
-            </li>
-
-            <li>
-              <div class="heading">
-                <h1>Destaque</h1>
-                <span>Websites desenvolvidos por mim na agência bridge que mais se destacaram</span> 
-              </div>
-              <div class="cd-half-width third-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content third-content">
-                        <div class="row">
-                          <div class="col-md-7 left-image">
-                            <img src="img/left-feature-image.png">
-                          </div>
-                          <div class="col-md-5">
-                            <div class="right-feature-text">
-                              <h4>WEBSITES EM DESTAQUE: <em>Agência Bridge</em></h4>
-                              <p>Desde agosto de 2019 eu venho trabalhando no desenvolvimento de websites, na Agência Bridge, todos com total dedicação e atenção juntamente da nossa equipe, que é um conjunto de profissionais excelentes da área de desenvolvimento. </p>
-                              <div class="feature-list">
-                                <ul>
-                                  <p>- Realize Consórcios - Concluido</p>
-                                  <p>- Website em desenvolvimento</p>
-                                  <p>- Website em desenvolvimento</p>
-                                  <p>- Website em desenvolvimento</p>
-                                  <p>- Website em desenvolvimento</p>
-                                </ul>
-                              </div>
-                              <div class="primary-button">
-                                <a href="#">Descubra mais</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
+              <div class="card">
+                <img class="card-img-top zoom" src="images/exp-img.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">Developed - Javascript</p>
+                  <button class="btn-inside-card">Saiba mais</button>
                 </div>
               </div>
-            </li>
-
-            <li>
-              <div class="heading">
-                <h1>PROJETOS DESENVOLVIDOS</h1>
-                <span>Aqui você pode ver todos projetos recentes</span> 
-              </div>
-              <div class="cd-half-width fourth-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content fourth-content">
-                        <div class="row">
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-01.jpg" data-lightbox="image-1"><img src="img/project-item-01.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-02.jpg" data-lightbox="image-1"><img src="img/project-item-02.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-03.jpg" data-lightbox="image-1"><img src="img/project-item-03.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-04.jpg" data-lightbox="image-1"><img src="img/project-item-04.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-05.jpg" data-lightbox="image-1"><img src="img/project-item-05.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-06.jpg" data-lightbox="image-1"><img src="img/project-item-06.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-07.jpg" data-lightbox="image-1"><img src="img/project-item-07.jpg"></a>
-                          </div>
-                          <div class="col-md-3 project-item">
-                            <a href="img/item-08.jpg" data-lightbox="image-1"><img src="img/project-item-08.jpg"></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
+              <div class="card">
+                <img class="card-img-top zoom" src="images/exp-img2.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <p class="card-text">Developed - CSS Flexbox</p>
+                  <button class="btn-inside-card">Saiba mais</button>
                 </div>
               </div>
-            </li>
+            </div>
+          </div>
+        </section>
 
-            <li>
-              <div class="heading">
-                <h1>Contate me</h1>
-                <span>Você vai ser respondido em até 48 horas</span> 
-              </div>
-              <div class="cd-half-width fivth-slide">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="content fivth-content">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <div class="left-info">
-                              <p>Fale comigo através de um e-mail online. Posso também enviar um e-mail de resposta em até 48 horas para você. Além disso, é possível agendar um horário para ligarmos quando você estiver disponível. Preencha  alguns campos ao lado e fornecerei as melhores opções para você..
-                              <br><br>
-                              
-                              <ul class="social-icons">
-                                <i><a href="https://www.facebook.com/jonatanrodriguesdalbosco" target="_blank"><i class="fa fa-facebook"></i></a></i>
-                                <i><a href="https://www.instagram.com/jonatandalbosco_" target="_blank"><i class="fa fa-instagram"></i></a></i>
-                                <i><a href="https://br.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></i>              
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="row">
-                                   <div class="adjustimg">
-                                      <div class="col-md-12"><h2>Jonatan Dalbosco</h2> </div>
-                                      <div class="col-md-12"> <p>Desenvolvedor Web</p> </div>
-                                      <div class="col-md-12">          
-                                    <img src="imagem/eu.jpg" class="img-rounded editimg" alt="Jonatan Dalbosco" >
-                                    </div>
-                                 </div>         
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>                  
+
+        <section class="section-inove" data-aos="fade-right" data-aos-duration="2500" id="habilidades">
+          <div>
+            <div class="row">
+              <div class="col-lg-4 no-pad">
+                <div>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <i class="fa fa-laptop"></i>
+                    <h1 id="homeTime">Home Office</h1>
+                  </div>
                 </div>
               </div>
-            </li>
-          </ul> <!-- .cd-hero-slider -->
-        </section> <!-- .cd-hero -->
-
-
-        <footer>
-          <p>Copyright &copy; 2019 
-                                
-        	| Desenvolvido por <em>Jonatan Dalbosco</em></p>
+              <div class="col-lg-4 no-pad">
+                <div>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <i class="fa fa-code"></i>
+                    <h1 id="codeTime">Code Time</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 no-pad">
+                <div>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <i class="fa fa-coffee"></i>
+                    <h1 id="coffeTime">Coffe Time</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-switched" data-aos="fade-right" data-aos-duration="2500" id="xp">
+          <div class="container">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center column-items">
+              <h1 class="heading text-uppercase  text-center" id="h2Switched">Home Office</h1>
+              <p id="home">Lorem ipsum ad odio justo aenean torquent amet etiam aenean felis, curabitur dapibus vivamus euismod fusce dictumst etiam per feugiat eget, luctus platea massa vestibulum rutrum sociosqu fermentum tempus quisque.</p>
+            </div>
+          </div>
+        </section>
+        <section class="contact-section" data-aos="fade-left" data-aos-duration="2500" id="contato">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="heading text-uppercase text-white text-center">Contato</h1>
+              </div>
+              <div class="col-lg-6">
+                <form>
+                  <div class="col-lg-12 form-group">
+                    <label for="#">Digite seu nome:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Nome" >
+                  </div>
+                  <div class="col-lg-12 form-group">
+                    <label for="#">Digite seu e-mail:</label>
+                    <input type="text" class="form-control" id="email" placeholder="E-mail">
+                  </div>
+                  <div class="col-lg-12 form-group textarea">
+                    <label for="#">Digite sua mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="7" class="form-control form-control_contato" placeholder="Mensagem"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="contact_info">
+                  <h4>Redes sociais:</h4>
+                  <div class="info_item">
+                    <a href="tel:" target="_blank"><i class="fa fa-phone"></i></a>
+                    <a href="tel:" target="_blank"> <h5 class="fonte-sociais">(51) 99614-6297</h5></a>
+                  </div>
+                  <div class="info_item">
+                    <a href="#"  target="_blank"><i class="lnr fa fa-instagram"></i></a>
+                    <a href="#"  target="_blank"><h5 class="fonte-sociais">@jonatandalbosco_</h5></a>
+                  </div> 
+                  <div class="info_item">
+                    <a href="#"  target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#"  target="_blank"><h5 class="fonte-sociais">@jonatandalbosco_</h5></a>
+                  </div> 
+                  <div class="info_item">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Fale comigo</button>
+                  </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="copy">
+          <div class="container">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-3">
+                <div>
+                  <a href="#" target="_blank"><i class="fa fa-code code-footer"></i></a>
+                </div>
+              </div>
+              <div class="col-lg-2">
+                <div>
+                  <ul>
+                    <a href="#" target="_blank"><li><i class="fa fa-linkedin"></i>Me encontre</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-git"></i>Veja meu Git</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-map-marker"></i>Brasil, RS - Sapiranga</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-facebook-square"></i>Curta aqui</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-instagram"></i>Siga me</li></a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 offset-lg-1">
+                <div>
+                  <ul>
+                    <a href="#" target="_blank"><li><i class="fa fa-arrow-right"></i>Colaboraração com UX designers</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-arrow-right"></i>Controle de versão de código</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-arrow-right"></i>Layouts Responsivos</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-arrow-right"></i>Código limpo</li></a>
+                    <a href="#" target="_blank"><li><i class="fa fa-arrow-right"></i>UX developer</li></a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <p class="copyright">
+                  Copyright &copy;<script> document.write(new Date().getFullYear()); </script>  Jonatan | Developer <span class="span-emote">&#128512;</span>
+                </p>
+              </div>
+            </div>
+          </div>
         </footer>
-    
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <!-- Modal abaixo -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="form-group">
+                    <label for="message-text" class="col-form-label">Mensagem:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Enviar a mensagem</button>
+              </div>
+            </div>
+          </div>
+        </div> <!-- MODAL -->
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+      </div>
+    </main>
+  </div>
+  <div class="modal-container" id="modal-pop">
+    <div class="modalPop animatedPop bounceInRight">
+      <div class="flex-btn-pop">
+        <button class="fechar-pop">x</button></div>
+        <h3 class="subtitulo text-center">Bem-vindo(a) ao meu WEBSITE!</h3>
+      </div>
+    </div>
+    <script src="js/js-menu.js"></script>
+    <script src="js/pure-scroll.js"></script>
+    <script src="js/pure-animate.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/switch-items.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/counter-count.js" type="text/javascript"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slider-js.js"></script>
+    <script type="text/javascript" src="js/pop-up.js"></script>
 
-    </body>
-</html>
+  </body>
+  </html>
